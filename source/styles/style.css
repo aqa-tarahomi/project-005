@@ -149,4 +149,15 @@ body{
         height: 100%;
         margin: 0 15px;
     }
+	.landing-main-text {
+		font-size: 20px;
+		margin-bottom: 2vh;
+	}
+	
+	.landing-caption-text {
+		font-size: 17px;
+	}
+	.landing-header-text{
+		font-size: 35px;
+	}
 }
