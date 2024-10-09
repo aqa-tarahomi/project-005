@@ -1,0 +1,152 @@
+:root{
+	--primary-text-color:#2E6A4C;
+	--secondary-text-color:#A9A9A9;
+	--highlite:#B2E4C8;
+	--decoration-color:#4CAF50;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	font-family: sans-serif;
+}
+
+.nav-background {
+	background-color: #424242;
+	transition: all .5s;
+}
+
+.nav-link {
+	color: whitesmoke !important;
+	transition: all .3s;
+	font-size: 16px;
+	text-underline-offset: 3px !important;
+	margin-right: 15px;
+}
+
+.offcanvas {
+	width: 100% !important;
+	background-color: #222222f1;
+}
+
+.nav-link:hover {
+	transition: all .3s;
+	text-decoration: 1.5px underline var(--decoration-color) ;
+	transform: skewX(0.5);
+}
+
+.active {
+	text-decoration: underline 2px var(--decoration-color);
+	text-underline-offset: 3px !important; 
+	transition: all .5s;
+	color: ghostwhite !important;
+}
+
+.landing {
+	min-height: 100vh;
+	position: relative;
+	text-align: center;
+	background-image: url(../gallery/workspace.jpg);
+	background-repeat: no-repeat;
+}
+.nav-brand {
+	font-size: 35px;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.nav-brand:hover {
+	text-decoration: 2px underline var(--decoration-color)  !important;
+	text-underline-offset: 9px;
+	transition: all .3s;
+}
+
+.landing-main-text {
+	font-size: 23px;
+	margin-bottom: 2vh;
+}
+
+.landing-caption-text {
+	font-size: 17px;
+	
+	font-weight: 100;
+}
+.landing-header-text{
+	font-size: 50px;
+	margin-bottom: 1vh;
+}
+
+.underline{
+	text-decoration: underline var(--decoration-color) ;
+}
+
+.horizontal-line{
+	width: 90%;
+    color: var(--decoration-color);
+	opacity: .5;
+}
+
+.text-school {
+    width: 85% !important;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+ .img-school {
+    width: 100%;
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+}
+
+.info-section-bg {
+	background-color: #BDBDBD;
+}
+.container-fluid{
+	width: 87%;
+}
+.navbar{
+	padding: 0 3rem;
+}
+
+.nav-btn {
+	background-color: #757575;
+}
+.bi{
+	color: #388E3C;
+}
+.primary-text{
+	color:var(--primary-text-color) ;
+} 
+@media screen and (max-width:767px) {
+	.container-fluid{
+		width: 100% !important;
+	}
+	.school-img{
+		order: 1 !important;
+	}
+	.school-info{
+		order: 3;
+	}
+	.school-text{
+		order: 2;
+	}
+	.text-school{
+		width: 100% !important;
+		padding-left: 0px;
+	}
+	.navbar{
+		padding: 0 1rem ;
+	}
+	.nav-link{
+        margin-left: 15px;
+    }
+    .navbar-nav{
+        border: 1px #8a8a8a solid;
+        height: 100%;
+        margin: 0 15px;
+    }
+}
