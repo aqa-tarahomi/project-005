@@ -139,6 +139,12 @@ body {
 	.landing p {
 		font-size: 1.3rem !important;
 	}
+	.landing {
+		min-height: 95vh !important;
+	}
+	.school-info-card{
+		width: 100% !important;
+	}
 }
 
 .landing h1 {
