@@ -1,9 +1,3 @@
-:root {
-	--primary-green: #4CAF50;
-	--primary-gray: #777;
-	--secondary-teal: #009688;
-	--primary-white: #fff;
-}
 * {
 	margin: 0;
 	padding: 0;
@@ -24,17 +18,17 @@ body {
 
 .offcanvas {
 	width: 100% !important;
-	background-color: #222222f1;
+	background-color: rgba(34, 34, 34, 0.95); /* Dark gray background */
 }
 
 .nav-link:hover {
 	transition: all .3s;
-	text-decoration: 1.5px underline var(--decoration-color);
+	text-decoration: 1.5px underline lightgray;
 	transform: skewX(0.5);
 }
 
 .active {
-	text-decoration: underline 2px var(--decoration-color);
+	text-decoration: underline 2px lightgray;
 	text-underline-offset: 3px !important;
 	transition: all .5s;
 	color: ghostwhite !important;
@@ -58,14 +52,14 @@ body {
 }
 
 .navbar-brand:hover {
-	text-decoration: 2px underline var(--decoration-color) !important;
+	text-decoration: 2px underline lightgray !important;
 	text-underline-offset: 9px;
 	transition: all .3s;
 }
 
 .horizontal-line {
 	width: 90%;
-	color: var(--decoration-color);
+	color: lightgray;
 	opacity: .5;
 }
 
@@ -75,7 +69,7 @@ body {
 }
 
 .info-section-bg {
-	background-color: #BDBDBD;
+	background-color: #BDBDBD; /* Light gray background */
 }
 
 .container-fluid {
@@ -117,17 +111,9 @@ body {
 	}
 
 	.navbar-nav {
-		border: 1px #8a8a8a solid;
+		border: 1px solid gray;
 		height: 100%;
 		margin: 0 15px;
-	}
-
-	.landing {
-		min-height: 95vh !important;
-	}
-
-	.school-info-card {
-		width: 100% !important;
 	}
 
 	.landing {
@@ -140,13 +126,13 @@ body {
 		align-items: center;
 		box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
 	}
+
 	.landing h1 {
 		font-size: 2.1rem !important;
 	}
 	
 	.landing p {
 		font-size: 1rem !important;
-
 	}
 }
 
@@ -164,21 +150,21 @@ body {
 	color: ghostwhite;
 }
 
-#about h2, #courses h2, #faculty h2, #contact h2 {
+#about h2{
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-	color: var(--primary-green);
+	color: #4CAF50; /* Primary green */
 }
 
 .horizontal-line {
 	border: 0;
-	border-top: 3px solid var(--primary-green);
+	border-top: 3px solid #4CAF50; /* Primary green */
 	width: 15%;
 	margin: 0 auto;
 }
 
 /* Hover animations for buttons */
 .btn-primary {
-	background-color: var(--primary-green);
+	background-color: #4CAF50; /* Primary green */
 	border: none;
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -189,7 +175,7 @@ body {
 
 /* Custom hover effects */
 a:hover {
-	color: var(--primary-green) !important;
+	color: #4CAF50 !important; /* Primary green */
 }
 
 /* Animations */
@@ -209,10 +195,12 @@ a:hover {
 	width: 85%;
 	margin-top: 150px !important;
 }
+
 .nav-background {
-	background-color: #424242;
+	background-color: #424242; /* Dark gray */
 	transition: all .5s;
 }
-.primary-text{
-	color: var(--primary-green) !important;
+
+.primary-text {
+	color: #4CAF50 !important; /* Primary green */
 }
