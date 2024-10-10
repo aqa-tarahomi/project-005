@@ -23,15 +23,20 @@ body {
 
 .nav-link:hover {
 	transition: all .3s;
-	text-decoration: 1.5px underline lightgray;
+	text-decoration: 1.5px underline #4CAF50;
 	transform: skewX(0.5);
+	color: ghostwhite !important;
 }
 
 .active {
-	text-decoration: underline 2px lightgray;
+	text-decoration: underline 2px #BDBDBD;
 	text-underline-offset: 3px !important;
 	transition: all .5s;
-	color: ghostwhite !important;
+	color: #4CAF50 !important;
+}
+.active.active:hover{
+	color: #4CAF50 !important;
+	text-decoration: underline 2px #BDBDBD !important	;
 }
 
 .landing {
