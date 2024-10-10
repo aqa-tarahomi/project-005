@@ -46,7 +46,7 @@ body{
 }
 
 .landing {
-	min-height: 100vh;
+	min-height: 99vh;
 	position: relative;
 	text-align: center;
 	background-image: url(../gallery/workspace.jpg);
@@ -159,4 +159,7 @@ body{
 	.landing-header-text{
 		font-size: 35px;
 	} */
+	.landing {
+		min-height: 95vh !important;
+	}
 }
