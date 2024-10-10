@@ -65,17 +65,17 @@ body{
 }
 
 .landing-main-text {
-	font-size: 23px;
+	font-size: 3vh;
 	margin-bottom: 2vh;
 }
 
 .landing-caption-text {
-	font-size: 17px;
+	font-size: 1.7vh;
 	
 	font-weight: 100;
 }
 .landing-header-text{
-	font-size: 50px;
+	font-size: 5vh;
 	margin-bottom: 1vh;
 }
 
@@ -149,9 +149,8 @@ body{
         height: 100%;
         margin: 0 15px;
     }
-	.landing-main-text {
+	/* .landing-main-text {
 		font-size: 20px;
-		margin-bottom: 2vh;
 	}
 	
 	.landing-caption-text {
@@ -159,5 +158,5 @@ body{
 	}
 	.landing-header-text{
 		font-size: 35px;
-	}
+	} */
 }
