@@ -1,8 +1,8 @@
-:root{
-	--primary-text-color:#2E6A4C;
-	--secondary-text-color:#A9A9A9;
-	--highlite:#B2E4C8;
-	--decoration-color:#4CAF50;
+:root {
+	--primary-green: #4CAF50;
+	--primary-gray: #777;
+	--secondary-teal: #009688;
+	--primary-white: #fff;
 }
 * {
 	margin: 0;
@@ -47,36 +47,24 @@ body{
 
 .landing {
 	min-height: 99vh;
-	position: relative;
-	text-align: center;
 	background-image: url(../gallery/workspace.jpg);
 	background-repeat: no-repeat;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
 }
-.nav-brand {
-	font-size: 35px;
+.navbar-brand {
+	font-size: 27px;
 	text-decoration: none;
 	transition: all .3s;
 }
 
-.nav-brand:hover {
+.navbar-brand:hover {
 	text-decoration: 2px underline var(--decoration-color)  !important;
 	text-underline-offset: 9px;
 	transition: all .3s;
-}
-
-.landing-main-text {
-	font-size: 3vh;
-	margin-bottom: 2vh;
-}
-
-.landing-caption-text {
-	font-size: 1.7vh;
-	
-	font-weight: 100;
-}
-.landing-header-text{
-	font-size: 5vh;
-	margin-bottom: 1vh;
 }
 
 .underline{
@@ -90,7 +78,7 @@ body{
 }
 
 .text-school {
-    width: 85% !important;
+    /* width: 85% !important; */
     text-align: justify;
     padding-left: 5%;
 }
@@ -149,17 +137,92 @@ body{
         height: 100%;
         margin: 0 15px;
     }
-	/* .landing-main-text {
-		font-size: 20px;
-	}
-	
-	.landing-caption-text {
-		font-size: 17px;
-	}
-	.landing-header-text{
-		font-size: 35px;
-	} */
 	.landing {
 		min-height: 95vh !important;
 	}
+	.school-info-card{
+		width: 100% !important;
+	}
+}
+.landing h1 {
+	font-size: 3rem;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+	animation: fadeInUp 2s ease-in-out;
+	color: ghostwhite;
+}
+
+.landing p {
+	font-size: 1.5rem;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	animation: fadeInUp 2.5s ease-in-out;
+	color: ghostwhite;
+}
+
+#about h2, #courses h2, #faculty h2, #contact h2 {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	color: var(--primary-green);
+}
+
+.horizontal-line {
+	border: 0;
+	border-top: 3px solid var(--primary-green);
+	width: 15%;
+	margin: 0 auto;
+}
+
+/* Text with colored shadows */
+.shadowed-text {
+	color: var(--primary-gray);
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* Box shadows for cards */
+.card {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+}
+
+.card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover animations for buttons */
+.btn-primary {
+	background-color: var(--primary-green);
+	border: none;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+	/* background-color: var(--secondary-teal); */
+	transform: scale(1.05);
+}
+
+/* Custom hover effects */
+a:hover {
+	color: var(--primary-green) !important;
+}
+
+/* Number Animation */
+.counter {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: var(--primary-green);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.school-info-card{
+	width: 85%;
+	margin-top: 150px !important;
 }
