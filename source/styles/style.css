@@ -8,15 +8,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
-}
-body{
-	font-family: sans-serif;
 }
 
-.nav-background {
-	background-color: #424242;
-	transition: all .5s;
+body {
+	font-family: sans-serif;
 }
 
 .nav-link {
@@ -34,13 +29,13 @@ body{
 
 .nav-link:hover {
 	transition: all .3s;
-	text-decoration: 1.5px underline var(--decoration-color) ;
+	text-decoration: 1.5px underline var(--decoration-color);
 	transform: skewX(0.5);
 }
 
 .active {
 	text-decoration: underline 2px var(--decoration-color);
-	text-underline-offset: 3px !important; 
+	text-underline-offset: 3px !important;
 	transition: all .5s;
 	color: ghostwhite !important;
 }
@@ -55,6 +50,7 @@ body{
 	align-items: center;
 	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
 }
+
 .navbar-brand {
 	font-size: 27px;
 	text-decoration: none;
@@ -62,88 +58,98 @@ body{
 }
 
 .navbar-brand:hover {
-	text-decoration: 2px underline var(--decoration-color)  !important;
+	text-decoration: 2px underline var(--decoration-color) !important;
 	text-underline-offset: 9px;
 	transition: all .3s;
 }
 
-.underline{
-	text-decoration: underline var(--decoration-color) ;
-}
-
-.horizontal-line{
+.horizontal-line {
 	width: 90%;
-    color: var(--decoration-color);
+	color: var(--decoration-color);
 	opacity: .5;
 }
 
 .text-school {
-    /* width: 85% !important; */
-    text-align: justify;
-    padding-left: 5%;
-}
-
- .img-school {
-    width: 100%;
-    direction: ltr;
-    display: flex;
-    justify-content: center;
+	text-align: justify;
+	padding-left: 5%;
 }
 
 .info-section-bg {
 	background-color: #BDBDBD;
 }
-.container-fluid{
+
+.container-fluid {
 	width: 87%;
 }
-.navbar{
+
+.navbar {
 	padding: 0 3rem;
 }
 
-.nav-btn {
-	background-color: #757575;
-}
-.bi{
-	color: #388E3C;
-}
-.primary-text{
-	color:var(--primary-text-color) ;
-} 
-@media screen and (max-width:767px) {
-	.container-fluid{
+@media screen and (max-width: 767px) {
+	.container-fluid {
 		width: 100% !important;
 	}
-	.school-img{
+
+	.school-img {
 		order: 1 !important;
 	}
-	.school-info{
+
+	.school-info {
 		order: 3;
 	}
-	.school-text{
+
+	.school-text {
 		order: 2;
 	}
-	.text-school{
+
+	.text-school {
 		width: 100% !important;
 		padding-left: 0px;
 	}
-	.navbar{
-		padding: 0 1rem ;
+
+	.navbar {
+		padding: 0 1rem;
 	}
-	.nav-link{
-        margin-left: 15px;
-    }
-    .navbar-nav{
-        border: 1px #8a8a8a solid;
-        height: 100%;
-        margin: 0 15px;
-    }
+
+	.nav-link {
+		margin-left: 15px;
+	}
+
+	.navbar-nav {
+		border: 1px #8a8a8a solid;
+		height: 100%;
+		margin: 0 15px;
+	}
+
 	.landing {
 		min-height: 95vh !important;
 	}
-	.school-info-card{
+
+	.school-info-card {
 		width: 100% !important;
 	}
+
+	.landing {
+		min-height: 95vh !important;
+		background-image: url(../gallery/workspace.jpg);
+		background-repeat: no-repeat;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+	}
+	.landing h1 {
+		font-size: 2.1rem !important;
+	}
+	
+	.landing p {
+		font-size: 1rem !important;
+
+	}
 }
+
 .landing h1 {
 	font-size: 3rem;
 	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
@@ -170,23 +176,6 @@ body{
 	margin: 0 auto;
 }
 
-/* Text with colored shadows */
-.shadowed-text {
-	color: var(--primary-gray);
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
-}
-
-/* Box shadows for cards */
-.card {
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	transition: all 0.3s ease;
-}
-
-.card:hover {
-	transform: translateY(-10px);
-	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
 /* Hover animations for buttons */
 .btn-primary {
 	background-color: var(--primary-green);
@@ -195,7 +184,6 @@ body{
 }
 
 .btn-primary:hover {
-	/* background-color: var(--secondary-teal); */
 	transform: scale(1.05);
 }
 
@@ -204,25 +192,27 @@ a:hover {
 	color: var(--primary-green) !important;
 }
 
-/* Number Animation */
-.counter {
-	font-size: 2.5rem;
-	font-weight: bold;
-	color: var(--primary-green);
-}
-
 /* Animations */
 @keyframes fadeInUp {
 	0% {
 		opacity: 0;
 		transform: translateY(30px);
 	}
+
 	100% {
 		opacity: 1;
 		transform: translateY(0);
 	}
 }
-.school-info-card{
+
+.school-info-card {
 	width: 85%;
 	margin-top: 150px !important;
+}
+.nav-background {
+	background-color: #424242;
+	transition: all .5s;
+}
+.primary-text{
+	color: var(--primary-green) !important;
 }
