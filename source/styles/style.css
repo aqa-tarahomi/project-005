@@ -75,7 +75,7 @@ body {
 }
 
 .info-section-bg {
-	background-color: #BDBDBD; /* Light gray background */
+	background-color: #d8d8d8; /* Light gray background */
 }
 
 .container-fluid {
@@ -178,6 +178,7 @@ body {
 	background-color: #4CAF50; /* Primary green */
 	border: none;
 	transition: background-color 0.3s ease, transform 0.3s ease;
+	color: ghostwhite !important;
 }
 
 .btn:hover {
@@ -186,7 +187,7 @@ body {
 
 /* Custom hover effects */
 a:hover {
-	color: #4CAF50 !important; /* Primary green */
+	color: #4CAF50 ; /* Primary green */
 }
 
 /* Animations */
@@ -214,4 +215,8 @@ a:hover {
 
 .primary-text {
 	color: #4CAF50 !important; /* Primary green */
+}
+
+.bi{
+	color: #4CAF50; 
 }
