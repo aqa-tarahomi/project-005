@@ -5,8 +5,7 @@
 }
 
 body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	-webkit-font-smoothing: antialiased;
+	font-family: sans-serif;
 }
 
 .nav-link {
@@ -41,30 +40,28 @@ body {
 }
 
 .landing {
-	min-height: 90vh;
-	background-image: url(../gallery/anformatic_students.jpg);
-	background-repeat: no-repeat;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-	position: relative;
+    min-height: 90vh;
+    background-image: url(../gallery/anformatic_students.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+    position: relative;
 }
-.landing::before {
-	content: "";
-	background: rgba(0, 0, 0, 0.65);
-	position: absolute;
-	inset: 0;
-	z-index: 2;
 
+.landing::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
 }
-.landing-text{
-	z-index: 3;
-}
+
 .navbar-brand {
 	font-size: 27px;
 	text-decoration: none;
@@ -93,7 +90,7 @@ body {
 }
 
 .container-fluid {
-	width: 85%;
+	width: 87%;
 }
 
 .navbar {
@@ -135,6 +132,18 @@ body {
 		height: 100%;
 		margin: 0 15px;
 	}
+
+	.landing {
+		min-height: 95vh !important;
+		background-image: url(../gallery/workspace.jpg);
+		background-repeat: no-repeat;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+	}
+
 	.landing h1 {
 		font-size: 2.3rem !important;
 	}
@@ -170,16 +179,17 @@ body {
 
 .horizontal-line {
 	border: 0;
-	border-top: 3px solid #4CAF50; 
-	width:30%;
+	border-top: 3px solid #4CAF50; /* Primary green */
+	width: 15%;
 	margin: 0 auto;
 }
 
+/* Hover animations for buttons */
 .btn {
-	background-color: #4CAF50; 
+	background-color: #4CAF50; /* Primary green */
 	border: none;
 	transition: background-color 0.3s ease, transform 0.3s ease;
-	color: rgb(0, 0, 0) !important;
+	color: ghostwhite !important;
 }
 
 .btn:hover {
@@ -188,8 +198,9 @@ body {
 
 /* Custom hover effects */
 a:hover {
-	color: #4CAF50 ; 
+	color: #4CAF50 ; /* Primary green */
 }
+
 /* Animations */
 @keyframes fadeInUp {
 	0% {
@@ -204,6 +215,7 @@ a:hover {
 }
 
 .school-info-card {
+	width: 85%;
 	margin-top: 150px !important;
 }
 
@@ -213,30 +225,9 @@ a:hover {
 }
 
 .primary-text {
-	color: #4CAF50 !important; 
-}
-.bi{
-	color: #4CAF50; 
+	color: #4CAF50 !important; /* Primary green */
 }
 
-.main-image{
-	height: 43vh !important;
-	object-fit: cover ;
-}
-.card{
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	margin-top: 30px;
-}
-.card:hover{
-	box-shadow: 0px 1px 29px rgba(0, 0, 0, 0.200);
-	/* transform: ; */
-}
-.card-title{
-	font-weight:500;
-	font-size: 30px;
-}
-.card-text{
-	color: #000000;
-    font-size: 16px;
-    line-height: 1.5;
+.bi{
+	color: #4CAF50; 
 }
