@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="source/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="source/styles/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+<body onscroll="navscroll()">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+           <div class="container-fluid" style="width: 90%;">
+              <a href="#" aria-label="reload page" class="navbar-brand ms-4 col-md-auto">
+              <img src="source/gallery/logo.png" style=" width: 70px;"
+                 class="m-auto">
+              </a>
+              <div class="offcanvas offcanvas-end" id="navv" data-bs-backdrop="true" data-bs-scroll="true" tabindex="-1">
+                 <div class="d-lg-none mt-3 d-flex px-3 align-items-center mb-4" data-bs-theme="dark">
+                    <a href="index.html" class="m-auto text-center" style="width: 15%;"><img src="source/gallery/logo.png" alt="" class="img-fluid"></a> 
+                    <button type="button" class="btn-close mb-2" data-bs-dismiss="offcanvas" aria-label="Close nav"></button>
+                 </div>
+                 <ul class="navbar-nav me-3 ">
+                    <li class="nav-item me-2 ms-2"><a href="#landing" class="nav-link active" aria-label="landing page">صفحه اصلی</a></li>
+                    <li class="nav-item me-2 ms-2"><a href="#about" class="nav-link" aria-label="about us page">درباره ما</a></li>
+                    <li class="nav-item me-2 ms-2"><a href="#services" class="nav-link" aria-label="services page">خدمات آموزشی</a></li>
+                    <li class="nav-item me-2 ms-2"><a href="main/Portfolio/index.html" class="nav-link"aria-label="portfolio page">نمونه کارها</a></li>
+                    <li class="nav-item me-2 ms-2"><a href="#team" class="nav-link" aria-label="about our team page">تیم آموزشی</a></li>
+                    <li class="nav-item me-2 ms-2"><a href="main/contact-us/index.html" class="nav-link" aria-label="contact us page">تماس با ما</a></li>
+                 </ul>
+              </div>
+              <button class="navbar-toggler border" type="button"
+                 data-bs-toggle="offcanvas" data-bs-target="#navv" aria-controls="navv" aria-label="nav bar"
+                 data-bs-theme="dark">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+           </div>
+        </nav>
+     </header>
+
+     <article class="landing d-flex align-items-center article">
+        <div class="container-fluid" style="width: 83%;">
+           <div class="row text-light d-flex">
+            <div class="col-12 col-md-5" >
+                <h3 class="landing-header">انفورماتیک</h3>
+              <h1 class="landing-main-text mb-5">بهترین کیفیت، گوشت تازه برای شما</h1>
+              <p class="landing-caption-text">ما به شما بهترین برش‌های گوشت را ارائه می‌دهیم که مستقیماً از مزارع محلی تهیه شده‌اند</p>
+              <a href="main/Portfolio/index.html">
+                <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">بیشتر بدانید</span>
+                </button>
+                </a>
+            </div>
+              <div class="col-12 col-md-7">
+                <img src="source/gallery/landing.png" alt="" class="card-img landing-iamge">
+              </div>
+           </div>
+        </div>
+     </article>
+
+     
+     
+     <div class="container-fluid">
+         <article>
+         <div class="article-header-text text-center mb-5">
+            <div class="article-main-header position-relative">
+               <h2 class="article-main-header-text mb-0 user-select-none">درباره ما</h2>
+               <p class="article-background-header-text centered user-select-none">گوشت تازه، هر روز</p>
+            </div>
+            <div class="horizontal-line mx-auto mb-3"></div>
+            <p class="lead mt-3 user-select-none article-subtitle-text">با بیش از ۲۶ سال تجربه، ما بر یادگیری مبتنی بر
+               پروژه و آموزش فناوری‌های نوین تمرکز
+               داریم.
+            </p>
+         </div>
+            <div class="row d-flex justify-content-around ms-0 me-0">
+                <div class="col-lg-6 about-text-section">
+                   <div class="card-body">
+                      <h3 class="card-title card-text mb-2 header-color">اکنون در حال تحویل گوشت همانطور که گوشت باید باشد</h3>
+                      <p class="card-text">قصابی ما با افتخار بیش از دو دهه تجربه دارد.ما با تمرکز بر کیفیت، تازگی و رضایت مشتری، بهترین خدمات را ارائه می‌دهیم.تمامی گوشت‌های ما از دام‌های محلی تهیه شده و در شرایط کاملاً بهداشتی فرآوری می‌شوند.از لحظه انتخاب تا برش، تمامی مراحل با دقت و توجه ویژه به نیازهای شما انجام می‌شود.هدف ما ارائه محصولاتی سالم، خوش‌طعم و مطابق با استانداردهای بالای غذایی است</p>
+                      <ul class="card-text ">
+                         <li><i class="bi bi-check2-all prime-color h5 ms-1"></i><span>دوره‌های آموزشی ویژه و متنوع با
+                            توجه به نیاز بازار کار</span>
+                         </li>
+                         <li><i class="bi bi-check2-all prime-color h5 ms-1"></i><span>پروژه‌های عملی برای یادگیری
+                            مهارت‌های واقعی و کاربردی</span>
+                         </li>
+                         <li><i class="bi bi-check2-all prime-color h5 ms-1"></i><span>پشتیبانی و راهنمایی مستمر در مسیر
+                            یادگیری و پیشرفت شما</span>
+                         </li>
+                      </ul>
+                      <div class="info-card-footer d-flex justify-content-between">
+                        <a href="main/Portfolio/index.html">
+                           <button class="learn-more">
+                           <span class="circle" aria-hidden="true">
+                           <span class="icon arrow text-dark"></span>
+                           </span>
+                           <span class="button-text text-dark">بیشتر بدانید</span>
+                           </button>
+                           </a>
+                           <h1 class="info-footer-text">بیایید<br>بچشیم!</h1>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-lg-6 about-image-section" data-aos="fade-up" data-aos-easing="ease-in-out"
+                   data-aos-duration="1500" data-aos-anchor-placement="center-bottom">
+                   <img src="source/gallery/about.webp" class="card-image img-fluid h-100" alt="تصویر درباره ما">
+                </div>
+             </div>
+         </article>
+     </div>
+
+     <article>
+      <div class="article-header-text text-center mb-5">
+         <div class="article-main-header position-relative">
+            <h2 class="article-main-header-text mb-0 user-select-none">درباره ما</h2>
+            <p class="article-background-header-text centered user-select-none">گوشت تازه، هر روز</p>
+         </div>
+         <div class="horizontal-line mx-auto mb-3"></div>
+         <p class="lead mt-3 user-select-none article-subtitle-text">با بیش از ۲۶ سال تجربه، ما بر یادگیری مبتنی بر
+            پروژه و آموزش فناوری‌های نوین تمرکز
+            داریم.
+         </p>
+      </div>
+
+      <div class="product-of-week">
+         <div class="container-fluid d-flex flex-wrap justify-content-between align-items-center h-75" >
+            <h2 class="col-12 text-center text-light mt-5 product-header-text"> <span style="color: #af3c3c;"> !! </span>درباره محصولات پرفروش ما بیشتر بدانید<span style="color: #af3c3c;"> !! </span></h2>
+
+            <div class="col-12 col-lg-12  product-image">
+               <img src="source/gallery/pngwing.com.png" alt="" class="card-img landing-iamge">
+             </div>
+
+             <div class="col-12 col-lg-6 p-5 m-0 product-info-text" style="text-align: justify;">
+   
+               <h1 style="color: #af3c3c;" class="mt-5 mb-4">استیک استریپ</h1>
+               <h5 class="text-light" >ستریپ استیک دارای چربی متعادل بوده و بافت نسبتا نرمی دارد. این استیک از گوشت ناحیه کمر گاو گرفته می‌شود و طعم بسیار لذیذی دارد. استیک استریپ بدون استخوان سرو شده و گوشت خالص است</h5>
+               <div class="special-sec-footer text-light d-flex">
+                  <p class="mt-3">$59.00 <br> Per K/g</p>
+                  <a href="main/Portfolio/index.html" class="me-4">
+                     <button class="learn-more">
+                     <span class="circle" aria-hidden="true">
+                     <span class="icon arrow"></span>
+                     </span>
+                     <span class="button-text">بیشتر بدانید</span>
+                     </button>
+                     </a>
+               </div>
+              
+             </div>
+
+             <div class="col-12 col-lg-6 p-5 product-prosess ">
+               <div class="progress-section" data-aos="zoom-in" style="height: 5px;">
+                  <div class="d-flex justify-content-between   ">
+                     <p class="my-auto me-3 col-auto text-light">انرژی</p>
+                     <p class="my-auto col-auto text-light">88%</p>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 3px; background-color: #8B8B8B;">
+                     <div class="progress-bar" style="width: 20%; background-color: #af3c3c;"></div>
+                  </div>
+               </div>
+   
+               <div class="progress-section" data-aos="zoom-in" style="height: 5px;">
+                  <div class="d-flex justify-content-between   ">
+                     <p class="my-auto me-3 col-auto text-light">انرژی</p>
+                     <p class="my-auto col-auto text-light">88%</p>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 3px; background-color: #8B8B8B;">
+                     <div class="progress-bar" style="width: 20%; background-color: #af3c3c;"></div>
+                  </div>
+               </div>
+   
+               <div class="progress-section" data-aos="zoom-in" style="height: 5px;">
+                  <div class="d-flex justify-content-between   ">
+                     <p class="my-auto me-3 col-auto text-light">انرژی</p>
+                     <p class="my-auto col-auto text-light">88%</p>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 3px; background-color: #8B8B8B;">
+                     <div class="progress-bar" style="width: 20%; background-color: #af3c3c;"></div>
+                  </div>
+               </div>
+   
+               <div class="progress-section" data-aos="zoom-in" style="height: 5px;">
+                  <div class="d-flex justify-content-between   ">
+                     <p class="my-auto me-3 col-auto text-light">انرژی</p>
+                     <p class="my-auto col-auto text-light">88%</p>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 3px; background-color: #8B8B8B;">
+                     <div class="progress-bar" style="width: 20%; background-color: #af3c3c;"></div>
+                  </div>
+               </div>
+   
+   
+   
+            </div>
+             
+         </div>
+
+      </div>
+
+      </article>
+
+      <article>
+         <div class="container-fluid"  style="width: 70%;">
+            <div class="article-header-text text-center mb-5">
+               <div class="article-main-header position-relative">
+                  <h2 class="article-main-header-text mb-0 user-select-none">درباره ما</h2>
+                  <p class="article-background-header-text centered user-select-none">گوشت تازه، هر روز</p>
+               </div>
+               <div class="horizontal-line mx-auto mb-3"></div>
+               <p class="lead mt-3 user-select-none article-subtitle-text">با بیش از ۲۶ سال تجربه، ما بر یادگیری مبتنی بر
+                  پروژه و آموزش فناوری‌های نوین تمرکز
+                  داریم.
+               </p>
+            </div>
+            <div class="col-12 d-flex flex-wrap mx-auto">
+               <div class="col-12 col-md-3">
+                  <div class="card vertical-meat-image" style="height: 64vh;"><img src="source/gallery/meat-image.jpg" alt="" class="img-fluid card-img"></div>
+               </div>
+               <div class="col-12 col-md-9">
+                  <div class="col-12">
+                     <div class="card"><img src="source/gallery/meat-mix.jpg" alt="" class="img-fluid card-img"></div>
+                  </div>
+                  <div class="col-12 d-flex">
+                     <div class="col-6">
+                        <div class="card"><img src="source/gallery/sosis.jpg" alt="" class="img-fluid card-img"></div>
+                     </div>
+                     <div class="col-6">
+                        <div class="card"><img src="source/gallery/horizontal-burger-restaurant_198067-244011.avif" alt="" class="img-fluid card-img"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="card"><img src="source/gallery/meat-mix.jpg" alt="" class="img-fluid card-img"></div>
+               </div>
+            </div>
+         </div>
+
+   
+         </article>
+     
+</body>
+<script src="source/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+<script src="source/scripts/script.js"></script>
+</html>

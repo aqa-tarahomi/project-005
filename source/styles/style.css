@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "title-font";
+    src: url(../fonts/Titr/Titr.ttf);
+}
+
+body{
+    font-family: "Vazirmatn", sans-serif;
+    font-weight: 300 !important;
+    scroll-behavior: smooth;
+    color: #2c2c2c;
+}
+.landing-main-text,.landing-caption-text,.landing-header,.nav-link,.button-text,.article-main-header-text,.article-background-header-text{
+    font-family: "title-font";
+    color: black;
+}
+.container-fluid{
+    width: 90%;
+}
+.info-footer-text{
+    color: #af3c3c;
+    font-size: 36px !important;
+}
+
+.landing{
+    background-image: url(../gallery/background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    object-fit: cover;
+    height: 32vh ;
+    
+}
+
+.card img{
+    object-fit: cover;
+    height: 100% !important;
+    object-position: center;
+}
+
+.nav-link{
+    color: ghostwhite !important;
+}
+
+.nav-background{
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: all .5s;
+}
+
+.offcanvas {
+    width: 100% !important;
+    background-color: #222222f1;
+}
+
+.landing-main-text{
+    font-size: 45px !important;
+    color: #F7F1E8 !important;
+    /* text-align: justify; */
+}
+.landing-caption-text{
+    color: #F7F1E8;
+}
+.landing-header{
+    color: #af3c3c;
+}
+.horizontal-line {
+    width: 15%;
+    opacity: .75;
+    margin: auto 0;
+    border-top: 3px solid #af3c3c;
+}
+.centered {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    color: rgba(0, 0, 0, 0.103);
+}
+.article-header-text{
+    margin-top: 110px;
+}
+
+.product-of-week{
+    background-image: url(../gallery/background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.progress-section{
+    margin-top: 60px;
+}
+.special-sec-footer p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .landing-main-text{
+        font-size: 31px !important;
+        text-align: center;
+    }
+    .landing-caption-text{
+        font-size: 14px;
+        margin-right:10px;
+    }
+    .landing-header{
+        text-align: center;
+    }
+    .container-fluid{
+        width: 100% !important;
+    }
+    .landing-image{
+        order: 1 !important;
+    }
+    .about-text-section{
+        order: 2 !important;
+        margin-top: 40px;
+    }
+    .navbar-nav {
+        border: 1px solid gray;
+        height: 100%;
+        margin: 0 15px;
+    }
+    .product-header-text{
+        font-size: 24px !important;
+    }
+    .product-prosess {
+        order: 3;
+        padding: 0 !important;
+    }
+    .product-info-text{
+        order: 2;
+        padding: 0 !important;
+    }
+    .product-image{
+        order: 1;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .product-of-week{
+        height: 117vh;
+    }
+    .product-image img{
+        max-width: 55vh;
+        
+    }
+    .vertical-meat-image{
+        /* height: 29vh !important; */
+    }
+}
+@media (min-width:767px) and (max-width:991px) {
+    .landing-main-text{
+        font-size: 35px !important;
+    }
+    .container-fluid{
+        width: 90% !important;
+    }
+    .product-prosess {
+        order: 3;
+        padding: 0 !important;
+    }
+    .product-info-text{
+        order: 2;
+        padding: 0 !important;
+    }
+    .product-image{
+        order: 1;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .product-of-week{
+        height: 117vh;
+    }
+    .product-image img{
+        max-width: 55vh;
+        
+    }
+}
+.product-image{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.product-of-week{
+    height: 117vh;
+}
+.product-image img{
+    max-width: 55vh;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    margin-top: 15px;
+}
+button.learn-more {
+    width: 11rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #af3c3c;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    right: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.25rem;
+    left: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #ffffff;
+    border-left: 0.125rem solid #ffffff;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+button.learn-more .button-text {
+    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 1.85rem 0 0;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle{
+    display:block !important;
+    width: 100% !important;
+}
+button:hover .circle .icon.arrow {
+    background: #ffffff;
+    -webkit-transform: translate(-1rem, 0) ;
+        -ms-transform: translate(-1rem, 0) ;
+            transform: translate(-1rem, 0) ;
+}
+button:hover .button-text{
+    color: ghostwhite !important;
+}
