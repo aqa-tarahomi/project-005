@@ -84,7 +84,7 @@ body{
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 55px;
+    font-size: 48px;
     color: rgba(0, 0, 0, 0.103);
 }
 .article-header-text{
@@ -93,7 +93,7 @@ body{
 
 .product-of-week{
     background-image: url(../gallery/background.jpg);
-    height: 100vh;
+    /* height: 100vh; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,7 +156,7 @@ body{
         justify-content: center;
     }
     .product-of-week{
-        height: 117vh;
+        height: 127vh;
     }
     .product-image img{
         max-width: 55vh;
@@ -188,7 +188,7 @@ body{
         justify-content: center;
     }
     .product-of-week{
-        height: 117vh;
+        height: 127vh;
     }
     .product-image img{
         max-width: 55vh;
@@ -200,12 +200,8 @@ body{
     display: flex;
     justify-content: center;
 }
-.product-of-week{
-    height: 117vh;
-}
 .product-image img{
     max-width: 55vh;
-    
 }
 
 
