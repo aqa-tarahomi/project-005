@@ -139,7 +139,7 @@ body{
         margin: 0 15px;
     }
     .product-header-text{
-        font-size: 24px !important;
+        font-size: 22px !important;
     }
     .product-prosess {
         order: 3;
@@ -156,7 +156,7 @@ body{
         justify-content: center;
     }
     .product-of-week{
-        height: 127vh;
+        height: 130vh;
     }
     .product-image img{
         max-width: 55vh;
