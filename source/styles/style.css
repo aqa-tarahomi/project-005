@@ -93,7 +93,7 @@ body{
 
 .product-of-week{
     background-image: url(../gallery/background.jpg);
-    /* height: 100vh; */
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,7 +201,8 @@ body{
     justify-content: center;
 }
 .product-image img{
-    max-width: 55vh;
+    height: 25vh;
+    width: auto;
 }
 
 
